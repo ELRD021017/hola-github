@@ -1,0 +1,5 @@
+hola
+*.o
+*.out
+build/
+.vscode/
