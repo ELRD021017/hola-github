@@ -17,8 +17,8 @@ Se añadieron los archivos correspondientes a la tarea de estructuras de datos l
 Ambos archivos se compilan con:
 
 ```bash
-gcc fifo.c -o fifo -Wall -Wextra -std=c11
-gcc lifo.c -o lifo -Wall -Wextra -std=c11
+gcc fifo.c -o fifo -Wall -Wextra 
+gcc lifo.c -o lifo -Wall -Wextra
 
 ## Compilation
 ```bash
