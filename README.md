@@ -9,12 +9,13 @@ Acaba de ser modificado desde la laptop de Ariel
 
 ## Última actualización
 
+"Actualizado README con la nueva tarea de polinomios horner y tabla hash"
+
 Se añadieron los archivos correspondientes a la tarea de estructuras de datos lineales:
 
 - **`fifo.c`** — Implementación de una cola (FIFO: First In, First Out) con listas doblemente ligadas.
 - **`lifo.c`** — Implementación de una pila (LIFO: Last In, First Out) con listas doblemente ligadas.
 
-Ambos archivos se compilan con:
 
 ```bash
 <<<<<<< HEAD
