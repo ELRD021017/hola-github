@@ -6,10 +6,6 @@
 
 #define TABLE_SIZE 100
 
-/* =========================================================
- *  ESTRUCTURA DE LA PERSONA (el "valor" que se guarda)
- *  Puedes añadir o quitar campos según lo que necesites.
- * ========================================================= */
 typedef struct {
     char nombre[50];
     int  edad;
@@ -163,7 +159,7 @@ void print_persona(const char *cedula, const Persona *p) {
 }
 
 /* =========================================================
- *  MAIN - Aquí rellenas tus personas manualmente
+ *  MAIN 
  * ========================================================= */
 int main(void) {
     HashTable *registro = create_hash_table();
@@ -173,8 +169,7 @@ int main(void) {
     }
 
     /* =========================================================
-     *  1) INSERTA AQUÍ TUS PERSONAS MANUALMENTE
-     *     La clave es la cédula (string), el valor es el struct.
+     *  1) La clave es la cédula (string), el valor es el struct.
      * ========================================================= */
     Persona p1 = { "Eric Luis", 23, "5624981300", "CDMX" };
     Persona p2 = { "Yester",    24, "5376477837", "Guadalajara" };
