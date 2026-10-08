@@ -205,8 +205,8 @@ int main(void) {
         "007-7890123-4",
         "008-8901234-5",
         "009-9012345-6",
-        "005-9999999-9"   /* esta no existe */
     };
+    
     int n = sizeof(cedulas) / sizeof(cedulas[0]);
     for (int i = 0; i < n; i++) {
         Persona *p = get(registro, cedulas[i]);
