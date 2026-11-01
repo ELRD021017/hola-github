@@ -1,0 +1,23 @@
+COMPRIMIR (tiempos en ms, mediana)
+Archivo                 Original  Comprimido         C  Cython(proc)  Cython(mod)  C/Cy mod
+-------------------------------------------------------------------------------------------
+texto_prueba.txt           2,757       1,695       1.2          22.7          0.1     8.16x
+texto_0.25MB             262,144     136,592       8.0          25.2          2.1     3.78x
+texto_1MB              1,048,576     545,833      29.1          31.7          7.8     3.73x
+aleatorio_0.25MB         262,144     263,438       8.9          25.5          2.2     4.13x
+
+DESCOMPRIMIR (tiempos en ms, mediana)
+Archivo                 Original  Comprimido         C  Cython(proc)  Cython(mod)  C/Cy mod
+-------------------------------------------------------------------------------------------
+texto_prueba.txt           2,757       1,695       1.2          22.9          0.2     7.07x
+texto_0.25MB             262,144     136,592       9.4          28.5          5.3     1.78x
+texto_1MB              1,048,576     545,833      35.4          44.9         20.7     1.71x
+aleatorio_0.25MB         262,144     263,438       9.2          36.8         13.4     0.69x
+
+Columna 'C/Cy mod': tiempo de C dividido entre tiempo del modulo Cython. Menor que 1 = C es mas rapido; mayor que 1 = Cython es mas rapido.
+
+VERIFICACION
+  texto_prueba.txt     archivos .huf identicos: SI   C<->Cython recuperan el original: SI
+  texto_0.25MB         archivos .huf identicos: SI   C<->Cython recuperan el original: SI
+  texto_1MB            archivos .huf identicos: SI   C<->Cython recuperan el original: SI
+  aleatorio_0.25MB     archivos .huf identicos: SI   C<->Cython recuperan el original: SI
