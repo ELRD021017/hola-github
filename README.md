@@ -17,7 +17,7 @@ Repositorio de la clase de computación. Aquí guardo los programas que voy haci
 ## Última actualización
 
 Se añadió la carpeta `07-Libreria en C-Python/`:
-* *(Agrega aquí un punto explicando qué contiene esta carpeta, por ejemplo: Implementación de una librería en C compilada y llamada desde scripts de Python).*
+Este código crea una librería en C usando Intrinsics, la cual es llamada luego por un programa en python, para realizar ciertas operaciones.
 
 ### Actualizaciones anteriores
 
