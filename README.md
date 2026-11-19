@@ -12,7 +12,7 @@ Repositorio de la clase de computación. Aquí guardo los programas que voy haci
 | `04-algoritmo-genetico/` | `ag_rastrigin_32bits.c`: algoritmo genético con codificación binaria que minimiza la función de Rastrigin de dos variables. |
 | `05-huffman/` | Compresión y descompresión con el algoritmo de Huffman en C: `huffman.c`, `huffman_comprimir.c` y `huffman_descomprimir.c`. |
 | `06-huffman-cython/` | El mismo Huffman escrito en Cython (con el mismo formato de archivo que la versión en C) y un benchmark que compara el tiempo de C contra Cython. |
-| `07-Libreria en C-Python/` | *(Aquí debes escribir una breve descripción de lo que hace esta carpeta, por ejemplo: Creación de una librería en C y su consumo desde Python).* |
+| `07-Libreria en C-Python/` | Creación de una librería en C y su consumo desde Python. |
 
 ## Última actualización
 
